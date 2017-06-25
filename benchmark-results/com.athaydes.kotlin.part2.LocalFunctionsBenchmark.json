@@ -1,0 +1,510 @@
+[
+  {
+    "experiment": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part2.LocalFunctionsBenchmark",
+        "id": 0,
+        "methodName": "javaLocalFunction",
+        "parameters": {
+          "a": "10"
+        }
+      },
+      "userParameters": {
+        "a": "10"
+      }
+    },
+    "id": "67731678-7916-41d4-9b03-09350a240226",
+    "instrumentSpec": {
+      "className": "dk.ilios.spanner.internal.RuntimeInstrument",
+      "options": {
+        "class": "dk.ilios.spanner.internal.RuntimeInstrument",
+        "gcBeforeEach": "true",
+        "maxWarmupWall_time": "10",
+        "maxWarmupWall_unit": "MINUTES",
+        "measurements": "9",
+        "suggestGranularity": "true",
+        "timingInterval_time": "1",
+        "timingInterval_unit": "SECONDS",
+        "warmup_time": "500",
+        "warmup_unit": "MILLISECONDS"
+      }
+    },
+    "measurements": [
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.167307043E9,
+          "unit": "ns"
+        },
+        "weight": 1.1458113E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.056868074E9,
+          "unit": "ns"
+        },
+        "weight": 1.1306212E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 9.61498221E8,
+          "unit": "ns"
+        },
+        "weight": 1.0388916E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 8.39044354E8,
+          "unit": "ns"
+        },
+        "weight": 8790894.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 5.21235833E8,
+          "unit": "ns"
+        },
+        "weight": 5223510.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.042461666E9,
+          "unit": "ns"
+        },
+        "weight": 1.0042784E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 7.86980547E8,
+          "unit": "ns"
+        },
+        "weight": 7750019.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.168454544E9,
+          "unit": "ns"
+        },
+        "weight": 1.1901544E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.28644867E9,
+          "unit": "ns"
+        },
+        "weight": 1.218837E7
+      }
+    ],
+    "messages": [],
+    "run": {
+      "id": "b3af47b2-552d-48fe-98d0-8b91c5b51c78",
+      "label": "Spanner benchmark test",
+      "startTime": "2017-06-25T21:32:09.455Z"
+    },
+    "scenario": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part2.LocalFunctionsBenchmark",
+        "id": 0,
+        "methodName": "javaLocalFunction",
+        "parameters": {
+          "a": "10"
+        }
+      },
+      "hash": 0,
+      "host": {
+        "id": 0,
+        "properties": {}
+      },
+      "id": 0
+    }
+  },
+  {
+    "experiment": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part2.LocalFunctionsBenchmark",
+        "id": 0,
+        "methodName": "javaLocalFunctionWithoutCapturingLocalVariable",
+        "parameters": {
+          "a": "10"
+        }
+      },
+      "userParameters": {
+        "a": "10"
+      }
+    },
+    "id": "50c7d755-3a15-485a-86c2-c361066ca458",
+    "instrumentSpec": {
+      "className": "dk.ilios.spanner.internal.RuntimeInstrument",
+      "options": {
+        "class": "dk.ilios.spanner.internal.RuntimeInstrument",
+        "gcBeforeEach": "true",
+        "maxWarmupWall_time": "10",
+        "maxWarmupWall_unit": "MINUTES",
+        "measurements": "9",
+        "suggestGranularity": "true",
+        "timingInterval_time": "1",
+        "timingInterval_unit": "SECONDS",
+        "warmup_time": "500",
+        "warmup_unit": "MILLISECONDS"
+      }
+    },
+    "measurements": [
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.110498339E9,
+          "unit": "ns"
+        },
+        "weight": 1.45058893E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.010387549E9,
+          "unit": "ns"
+        },
+        "weight": 1.33277409E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 9.4868348E8,
+          "unit": "ns"
+        },
+        "weight": 1.23859883E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.171323086E9,
+          "unit": "ns"
+        },
+        "weight": 1.56479488E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.335533518E9,
+          "unit": "ns"
+        },
+        "weight": 1.77911396E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.16270324E9,
+          "unit": "ns"
+        },
+        "weight": 1.53761863E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.177354544E9,
+          "unit": "ns"
+        },
+        "weight": 1.55999368E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 9.14478477E8,
+          "unit": "ns"
+        },
+        "weight": 1.16708119E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 9.75503326E8,
+          "unit": "ns"
+        },
+        "weight": 1.28413864E8
+      }
+    ],
+    "messages": [],
+    "run": {
+      "id": "b3af47b2-552d-48fe-98d0-8b91c5b51c78",
+      "label": "Spanner benchmark test",
+      "startTime": "2017-06-25T21:32:09.455Z"
+    },
+    "scenario": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part2.LocalFunctionsBenchmark",
+        "id": 0,
+        "methodName": "javaLocalFunctionWithoutCapturingLocalVariable",
+        "parameters": {
+          "a": "10"
+        }
+      },
+      "hash": 0,
+      "host": {
+        "id": 0,
+        "properties": {}
+      },
+      "id": 0
+    }
+  },
+  {
+    "experiment": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part2.LocalFunctionsBenchmark",
+        "id": 0,
+        "methodName": "kotlinLocalFunctionCapturingLocalVariable",
+        "parameters": {
+          "a": "10"
+        }
+      },
+      "userParameters": {
+        "a": "10"
+      }
+    },
+    "id": "170df1cb-35a2-48f6-8880-23f6732957b4",
+    "instrumentSpec": {
+      "className": "dk.ilios.spanner.internal.RuntimeInstrument",
+      "options": {
+        "class": "dk.ilios.spanner.internal.RuntimeInstrument",
+        "gcBeforeEach": "true",
+        "maxWarmupWall_time": "10",
+        "maxWarmupWall_unit": "MINUTES",
+        "measurements": "9",
+        "suggestGranularity": "true",
+        "timingInterval_time": "1",
+        "timingInterval_unit": "SECONDS",
+        "warmup_time": "500",
+        "warmup_unit": "MILLISECONDS"
+      }
+    },
+    "measurements": [
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.058491147E9,
+          "unit": "ns"
+        },
+        "weight": 8551910.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.26862721E9,
+          "unit": "ns"
+        },
+        "weight": 9944337.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 6.4290246E8,
+          "unit": "ns"
+        },
+        "weight": 5331658.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.006610361E9,
+          "unit": "ns"
+        },
+        "weight": 8761520.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.033747447E9,
+          "unit": "ns"
+        },
+        "weight": 9468071.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.03488854E9,
+          "unit": "ns"
+        },
+        "weight": 9492450.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 7.44877731E8,
+          "unit": "ns"
+        },
+        "weight": 6725449.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.063328908E9,
+          "unit": "ns"
+        },
+        "weight": 9828775.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 8.41739406E8,
+          "unit": "ns"
+        },
+        "weight": 8002574.0
+      }
+    ],
+    "messages": [],
+    "run": {
+      "id": "b3af47b2-552d-48fe-98d0-8b91c5b51c78",
+      "label": "Spanner benchmark test",
+      "startTime": "2017-06-25T21:32:09.455Z"
+    },
+    "scenario": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part2.LocalFunctionsBenchmark",
+        "id": 0,
+        "methodName": "kotlinLocalFunctionCapturingLocalVariable",
+        "parameters": {
+          "a": "10"
+        }
+      },
+      "hash": 0,
+      "host": {
+        "id": 0,
+        "properties": {}
+      },
+      "id": 0
+    }
+  },
+  {
+    "experiment": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part2.LocalFunctionsBenchmark",
+        "id": 0,
+        "methodName": "kotlinLocalFunctionWithoutCapturingLocalVariable",
+        "parameters": {
+          "a": "10"
+        }
+      },
+      "userParameters": {
+        "a": "10"
+      }
+    },
+    "id": "d430df7d-14cf-4fdf-a059-ff90366c677d",
+    "instrumentSpec": {
+      "className": "dk.ilios.spanner.internal.RuntimeInstrument",
+      "options": {
+        "class": "dk.ilios.spanner.internal.RuntimeInstrument",
+        "gcBeforeEach": "true",
+        "maxWarmupWall_time": "10",
+        "maxWarmupWall_unit": "MINUTES",
+        "measurements": "9",
+        "suggestGranularity": "true",
+        "timingInterval_time": "1",
+        "timingInterval_unit": "SECONDS",
+        "warmup_time": "500",
+        "warmup_unit": "MILLISECONDS"
+      }
+    },
+    "measurements": [
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 8.10384664E8,
+          "unit": "ns"
+        },
+        "weight": 1.0833244E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 8.38565031E8,
+          "unit": "ns"
+        },
+        "weight": 1.12672415E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.043233958E9,
+          "unit": "ns"
+        },
+        "weight": 1.39612501E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.315957162E9,
+          "unit": "ns"
+        },
+        "weight": 1.81288612E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.291584816E9,
+          "unit": "ns"
+        },
+        "weight": 1.77521782E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 9.64379419E8,
+          "unit": "ns"
+        },
+        "weight": 1.28821382E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 9.66753794E8,
+          "unit": "ns"
+        },
+        "weight": 1.32550983E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.25818726E9,
+          "unit": "ns"
+        },
+        "weight": 1.74094316E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.032844634E9,
+          "unit": "ns"
+        },
+        "weight": 1.40254896E8
+      }
+    ],
+    "messages": [],
+    "run": {
+      "id": "b3af47b2-552d-48fe-98d0-8b91c5b51c78",
+      "label": "Spanner benchmark test",
+      "startTime": "2017-06-25T21:32:09.455Z"
+    },
+    "scenario": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part2.LocalFunctionsBenchmark",
+        "id": 0,
+        "methodName": "kotlinLocalFunctionWithoutCapturingLocalVariable",
+        "parameters": {
+          "a": "10"
+        }
+      },
+      "hash": 0,
+      "host": {
+        "id": 0,
+        "properties": {}
+      },
+      "id": 0
+    }
+  }
+]

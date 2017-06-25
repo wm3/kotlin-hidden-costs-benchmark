@@ -1,0 +1,365 @@
+[
+  {
+    "experiment": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part1.CompanionObjectsBenchmark",
+        "id": 0,
+        "methodName": "javaPrivateConstructorCallFromStaticMethod",
+        "parameters": {}
+      },
+      "userParameters": {}
+    },
+    "id": "ced40d5b-7253-41ce-a50e-a0a4db1ca942",
+    "instrumentSpec": {
+      "className": "dk.ilios.spanner.internal.RuntimeInstrument",
+      "options": {
+        "class": "dk.ilios.spanner.internal.RuntimeInstrument",
+        "gcBeforeEach": "true",
+        "maxWarmupWall_time": "10",
+        "maxWarmupWall_unit": "MINUTES",
+        "measurements": "9",
+        "suggestGranularity": "true",
+        "timingInterval_time": "5",
+        "timingInterval_unit": "SECONDS",
+        "warmup_time": "500",
+        "warmup_unit": "MILLISECONDS"
+      }
+    },
+    "measurements": [
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 6.08423446E9,
+          "unit": "ns"
+        },
+        "weight": 7.7117178E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.604336865E9,
+          "unit": "ns"
+        },
+        "weight": 5.8618498E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 6.138668945E9,
+          "unit": "ns"
+        },
+        "weight": 7.3679874E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 2.952551284E9,
+          "unit": "ns"
+        },
+        "weight": 3.716694E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 2.917342009E9,
+          "unit": "ns"
+        },
+        "weight": 3.645209E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.598730302E9,
+          "unit": "ns"
+        },
+        "weight": 5.6571291E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 7.112653521E9,
+          "unit": "ns"
+        },
+        "weight": 8.2329108E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.454943569E9,
+          "unit": "ns"
+        },
+        "weight": 5.298674E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.346804496E9,
+          "unit": "ns"
+        },
+        "weight": 5.5850212E7
+      }
+    ],
+    "messages": [],
+    "run": {
+      "id": "30e2d0d2-2772-47ca-b2b0-96b7d5ec6c83",
+      "label": "Spanner benchmark test",
+      "startTime": "2017-06-25T23:03:04.345Z"
+    },
+    "scenario": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part1.CompanionObjectsBenchmark",
+        "id": 0,
+        "methodName": "javaPrivateConstructorCallFromStaticMethod",
+        "parameters": {}
+      },
+      "hash": 0,
+      "host": {
+        "id": 0,
+        "properties": {}
+      },
+      "id": 0
+    }
+  },
+  {
+    "experiment": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part1.CompanionObjectsBenchmark",
+        "id": 0,
+        "methodName": "kotlinPrivateConstructorCallFromCompanionObject",
+        "parameters": {}
+      },
+      "userParameters": {}
+    },
+    "id": "9008b4b9-28bb-4dd3-a480-998ac754c139",
+    "instrumentSpec": {
+      "className": "dk.ilios.spanner.internal.RuntimeInstrument",
+      "options": {
+        "class": "dk.ilios.spanner.internal.RuntimeInstrument",
+        "gcBeforeEach": "true",
+        "maxWarmupWall_time": "10",
+        "maxWarmupWall_unit": "MINUTES",
+        "measurements": "9",
+        "suggestGranularity": "true",
+        "timingInterval_time": "5",
+        "timingInterval_unit": "SECONDS",
+        "warmup_time": "500",
+        "warmup_unit": "MILLISECONDS"
+      }
+    },
+    "measurements": [
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 3.605972964E9,
+          "unit": "ns"
+        },
+        "weight": 3.3421409E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.60370874E9,
+          "unit": "ns"
+        },
+        "weight": 4.1964105E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 3.7386423E9,
+          "unit": "ns"
+        },
+        "weight": 3.5086019E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.682778279E9,
+          "unit": "ns"
+        },
+        "weight": 4.0288287E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.676928851E9,
+          "unit": "ns"
+        },
+        "weight": 4.1304284E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 3.452632062E9,
+          "unit": "ns"
+        },
+        "weight": 3.1389222E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 5.420293248E9,
+          "unit": "ns"
+        },
+        "weight": 4.7946615E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 6.548186174E9,
+          "unit": "ns"
+        },
+        "weight": 6.0431737E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.257138549E9,
+          "unit": "ns"
+        },
+        "weight": 4.2281983E7
+      }
+    ],
+    "messages": [],
+    "run": {
+      "id": "30e2d0d2-2772-47ca-b2b0-96b7d5ec6c83",
+      "label": "Spanner benchmark test",
+      "startTime": "2017-06-25T23:03:04.345Z"
+    },
+    "scenario": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part1.CompanionObjectsBenchmark",
+        "id": 0,
+        "methodName": "kotlinPrivateConstructorCallFromCompanionObject",
+        "parameters": {}
+      },
+      "hash": 0,
+      "host": {
+        "id": 0,
+        "properties": {}
+      },
+      "id": 0
+    }
+  },
+  {
+    "experiment": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part1.CompanionObjectsBenchmark",
+        "id": 0,
+        "methodName": "kotlinPrivateStaticConstructorCallFromCompanionObject",
+        "parameters": {}
+      },
+      "userParameters": {}
+    },
+    "id": "1528d318-45f1-4b66-aa4b-5c285047cd90",
+    "instrumentSpec": {
+      "className": "dk.ilios.spanner.internal.RuntimeInstrument",
+      "options": {
+        "class": "dk.ilios.spanner.internal.RuntimeInstrument",
+        "gcBeforeEach": "true",
+        "maxWarmupWall_time": "10",
+        "maxWarmupWall_unit": "MINUTES",
+        "measurements": "9",
+        "suggestGranularity": "true",
+        "timingInterval_time": "5",
+        "timingInterval_unit": "SECONDS",
+        "warmup_time": "500",
+        "warmup_unit": "MILLISECONDS"
+      }
+    },
+    "measurements": [
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.249035111E9,
+          "unit": "ns"
+        },
+        "weight": 3.9457351E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 3.374166274E9,
+          "unit": "ns"
+        },
+        "weight": 3.4269616E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 3.460107897E9,
+          "unit": "ns"
+        },
+        "weight": 3.2365637E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 5.312064695E9,
+          "unit": "ns"
+        },
+        "weight": 5.0587632E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.873496528E9,
+          "unit": "ns"
+        },
+        "weight": 4.5735226E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.895082466E9,
+          "unit": "ns"
+        },
+        "weight": 4.880746E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 6.266117604E9,
+          "unit": "ns"
+        },
+        "weight": 6.102155E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.981122735E9,
+          "unit": "ns"
+        },
+        "weight": 4.6686432E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 8.491338189E9,
+          "unit": "ns"
+        },
+        "weight": 7.6729322E7
+      }
+    ],
+    "messages": [],
+    "run": {
+      "id": "30e2d0d2-2772-47ca-b2b0-96b7d5ec6c83",
+      "label": "Spanner benchmark test",
+      "startTime": "2017-06-25T23:03:04.345Z"
+    },
+    "scenario": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part1.CompanionObjectsBenchmark",
+        "id": 0,
+        "methodName": "kotlinPrivateStaticConstructorCallFromCompanionObject",
+        "parameters": {}
+      },
+      "hash": 0,
+      "host": {
+        "id": 0,
+        "properties": {}
+      },
+      "id": 0
+    }
+  }
+]

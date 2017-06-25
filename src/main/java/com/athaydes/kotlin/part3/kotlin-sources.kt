@@ -1,7 +1,7 @@
 package com.athaydes.kotlin.part3
 
+import com.athaydes.kotlin.BlackHole
 import com.athaydes.kotlin.part3.JavaExamples.DelegatePropertyTest.someOperation
-import org.openjdk.jmh.logic.BlackHole
 import kotlin.reflect.KProperty
 
 class StringDelegate {

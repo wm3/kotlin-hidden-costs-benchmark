@@ -1,0 +1,256 @@
+[
+  {
+    "experiment": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part2.NullSafetyBenchmark",
+        "id": 0,
+        "methodName": "javaSayHello",
+        "parameters": {
+          "who": "John"
+        }
+      },
+      "userParameters": {
+        "who": "John"
+      }
+    },
+    "id": "9f0e1030-895b-44aa-8c13-6dd75f982310",
+    "instrumentSpec": {
+      "className": "dk.ilios.spanner.internal.RuntimeInstrument",
+      "options": {
+        "class": "dk.ilios.spanner.internal.RuntimeInstrument",
+        "gcBeforeEach": "true",
+        "maxWarmupWall_time": "10",
+        "maxWarmupWall_unit": "MINUTES",
+        "measurements": "9",
+        "suggestGranularity": "true",
+        "timingInterval_time": "5",
+        "timingInterval_unit": "SECONDS",
+        "warmup_time": "500",
+        "warmup_unit": "MILLISECONDS"
+      }
+    },
+    "measurements": [
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.433284765E9,
+          "unit": "ns"
+        },
+        "weight": 3.91377663E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 3.676090367E9,
+          "unit": "ns"
+        },
+        "weight": 3.27402775E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 5.177410672E9,
+          "unit": "ns"
+        },
+        "weight": 4.62977395E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 6.468854759E9,
+          "unit": "ns"
+        },
+        "weight": 5.66670761E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 6.160489416E9,
+          "unit": "ns"
+        },
+        "weight": 5.54324389E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 5.49890461E9,
+          "unit": "ns"
+        },
+        "weight": 4.90616175E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.743917243E9,
+          "unit": "ns"
+        },
+        "weight": 4.2432886E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 5.168388796E9,
+          "unit": "ns"
+        },
+        "weight": 4.61717118E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 6.619147847E9,
+          "unit": "ns"
+        },
+        "weight": 5.96071849E8
+      }
+    ],
+    "messages": [],
+    "run": {
+      "id": "c2f7b8bd-974a-4267-9152-ffab25448085",
+      "label": "Spanner benchmark test",
+      "startTime": "2017-06-25T22:05:40.451Z"
+    },
+    "scenario": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part2.NullSafetyBenchmark",
+        "id": 0,
+        "methodName": "javaSayHello",
+        "parameters": {
+          "who": "John"
+        }
+      },
+      "hash": 0,
+      "host": {
+        "id": 0,
+        "properties": {}
+      },
+      "id": 0
+    }
+  },
+  {
+    "experiment": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part2.NullSafetyBenchmark",
+        "id": 0,
+        "methodName": "kotlinSayHello",
+        "parameters": {
+          "who": "John"
+        }
+      },
+      "userParameters": {
+        "who": "John"
+      }
+    },
+    "id": "edd0802e-994c-4f10-aa9a-89e6099d295b",
+    "instrumentSpec": {
+      "className": "dk.ilios.spanner.internal.RuntimeInstrument",
+      "options": {
+        "class": "dk.ilios.spanner.internal.RuntimeInstrument",
+        "gcBeforeEach": "true",
+        "maxWarmupWall_time": "10",
+        "maxWarmupWall_unit": "MINUTES",
+        "measurements": "9",
+        "suggestGranularity": "true",
+        "timingInterval_time": "5",
+        "timingInterval_unit": "SECONDS",
+        "warmup_time": "500",
+        "warmup_unit": "MILLISECONDS"
+      }
+    },
+    "measurements": [
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 5.637004572E9,
+          "unit": "ns"
+        },
+        "weight": 4.05304862E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 4.491539457E9,
+          "unit": "ns"
+        },
+        "weight": 3.14064419E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 5.942770175E9,
+          "unit": "ns"
+        },
+        "weight": 4.18726772E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 5.59784035E9,
+          "unit": "ns"
+        },
+        "weight": 3.97686242E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 6.531534609E9,
+          "unit": "ns"
+        },
+        "weight": 4.52851928E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 3.398810651E9,
+          "unit": "ns"
+        },
+        "weight": 2.34770482E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 5.559239876E9,
+          "unit": "ns"
+        },
+        "weight": 4.02047278E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 5.864146574E9,
+          "unit": "ns"
+        },
+        "weight": 4.17713455E8
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 5.122718219E9,
+          "unit": "ns"
+        },
+        "weight": 3.63650117E8
+      }
+    ],
+    "messages": [],
+    "run": {
+      "id": "c2f7b8bd-974a-4267-9152-ffab25448085",
+      "label": "Spanner benchmark test",
+      "startTime": "2017-06-25T22:05:40.451Z"
+    },
+    "scenario": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part2.NullSafetyBenchmark",
+        "id": 0,
+        "methodName": "kotlinSayHello",
+        "parameters": {
+          "who": "John"
+        }
+      },
+      "hash": 0,
+      "host": {
+        "id": 0,
+        "properties": {}
+      },
+      "id": 0
+    }
+  }
+]

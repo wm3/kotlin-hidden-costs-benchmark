@@ -1,0 +1,256 @@
+[
+  {
+    "experiment": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part3.CollectionIndicesBenchmark",
+        "id": 0,
+        "methodName": "kotlinCustomIndicesIteration",
+        "parameters": {
+          "sparseArrayString": "A,B,Hi,ZZ,FFF"
+        }
+      },
+      "userParameters": {
+        "sparseArrayString": "A,B,Hi,ZZ,FFF"
+      }
+    },
+    "id": "c05a52f6-4ba4-4608-b508-3462371b1be1",
+    "instrumentSpec": {
+      "className": "dk.ilios.spanner.internal.RuntimeInstrument",
+      "options": {
+        "class": "dk.ilios.spanner.internal.RuntimeInstrument",
+        "gcBeforeEach": "true",
+        "maxWarmupWall_time": "10",
+        "maxWarmupWall_unit": "MINUTES",
+        "measurements": "9",
+        "suggestGranularity": "true",
+        "timingInterval_time": "1",
+        "timingInterval_unit": "SECONDS",
+        "warmup_time": "500",
+        "warmup_unit": "MILLISECONDS"
+      }
+    },
+    "measurements": [
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.32684607E9,
+          "unit": "ns"
+        },
+        "weight": 4735339.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.092076619E9,
+          "unit": "ns"
+        },
+        "weight": 3924686.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.007117705E9,
+          "unit": "ns"
+        },
+        "weight": 3816631.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.037297291E9,
+          "unit": "ns"
+        },
+        "weight": 3987690.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.214703142E9,
+          "unit": "ns"
+        },
+        "weight": 4718176.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 8.3256149E8,
+          "unit": "ns"
+        },
+        "weight": 3527643.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.377041387E9,
+          "unit": "ns"
+        },
+        "weight": 5826641.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.325844038E9,
+          "unit": "ns"
+        },
+        "weight": 4950039.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 9.76118378E8,
+          "unit": "ns"
+        },
+        "weight": 4209520.0
+      }
+    ],
+    "messages": [],
+    "run": {
+      "id": "f2ad10dd-d6c4-4ed7-94b3-d61d6f80801d",
+      "label": "Spanner benchmark test",
+      "startTime": "2017-06-25T22:47:11.967Z"
+    },
+    "scenario": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part3.CollectionIndicesBenchmark",
+        "id": 0,
+        "methodName": "kotlinCustomIndicesIteration",
+        "parameters": {
+          "sparseArrayString": "A,B,Hi,ZZ,FFF"
+        }
+      },
+      "hash": 0,
+      "host": {
+        "id": 0,
+        "properties": {}
+      },
+      "id": 0
+    }
+  },
+  {
+    "experiment": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part3.CollectionIndicesBenchmark",
+        "id": 0,
+        "methodName": "kotlinIterationUsingLastIndexRange",
+        "parameters": {
+          "sparseArrayString": "A,B,Hi,ZZ,FFF"
+        }
+      },
+      "userParameters": {
+        "sparseArrayString": "A,B,Hi,ZZ,FFF"
+      }
+    },
+    "id": "739534e5-2677-41a2-8a0d-50fc8616100e",
+    "instrumentSpec": {
+      "className": "dk.ilios.spanner.internal.RuntimeInstrument",
+      "options": {
+        "class": "dk.ilios.spanner.internal.RuntimeInstrument",
+        "gcBeforeEach": "true",
+        "maxWarmupWall_time": "10",
+        "maxWarmupWall_unit": "MINUTES",
+        "measurements": "9",
+        "suggestGranularity": "true",
+        "timingInterval_time": "1",
+        "timingInterval_unit": "SECONDS",
+        "warmup_time": "500",
+        "warmup_unit": "MILLISECONDS"
+      }
+    },
+    "measurements": [
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.05789646E9,
+          "unit": "ns"
+        },
+        "weight": 1.0691587E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.019714998E9,
+          "unit": "ns"
+        },
+        "weight": 9505490.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 7.63491118E8,
+          "unit": "ns"
+        },
+        "weight": 6816397.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.203545171E9,
+          "unit": "ns"
+        },
+        "weight": 1.1099117E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.229966633E9,
+          "unit": "ns"
+        },
+        "weight": 1.1409952E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 8.73713003E8,
+          "unit": "ns"
+        },
+        "weight": 8333796.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 9.51003689E8,
+          "unit": "ns"
+        },
+        "weight": 8725444.0
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 1.177759128E9,
+          "unit": "ns"
+        },
+        "weight": 1.1105739E7
+      },
+      {
+        "description": "runtime",
+        "value": {
+          "magnitude": 7.69250806E8,
+          "unit": "ns"
+        },
+        "weight": 7019675.0
+      }
+    ],
+    "messages": [],
+    "run": {
+      "id": "f2ad10dd-d6c4-4ed7-94b3-d61d6f80801d",
+      "label": "Spanner benchmark test",
+      "startTime": "2017-06-25T22:47:11.967Z"
+    },
+    "scenario": {
+      "benchmarkSpec": {
+        "className": "com.athaydes.kotlin.part3.CollectionIndicesBenchmark",
+        "id": 0,
+        "methodName": "kotlinIterationUsingLastIndexRange",
+        "parameters": {
+          "sparseArrayString": "A,B,Hi,ZZ,FFF"
+        }
+      },
+      "hash": 0,
+      "host": {
+        "id": 0,
+        "properties": {}
+      },
+      "id": 0
+    }
+  }
+]

@@ -40,9 +40,14 @@ inline fun inlineTransaction(db: Database, body: (Database) -> Int): Int {
     }
 }
 
-fun runCompanionObjectCallToPrivateConstructor(): String {
+fun runCompanionObjectCallToPrivateConstructor(blackHole: BlackHole) {
     val myClass = MyClass.newInstance()
-    return myClass.helloWorld()
+    blackHole.consume(myClass.helloWorld())
+}
+
+fun runCompanionObjectCallToPrivateConstructorStatic(blackHole: BlackHole) {
+    val myClass = MyClass2.newInstance()
+    blackHole.consume(myClass.helloWorld())
 }
 
 class MyClass private constructor() {
@@ -51,6 +56,17 @@ class MyClass private constructor() {
         private val TAG = "TAG"
 
         fun newInstance() = MyClass()
+    }
+
+    fun helloWorld() = TAG
+}
+
+class MyClass2 private constructor() {
+    companion object {
+        private const val TAG = "TAG"
+
+        @JvmStatic
+        fun newInstance() = MyClass2()
     }
 
     fun helloWorld() = TAG
