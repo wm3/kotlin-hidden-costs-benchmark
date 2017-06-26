@@ -10,7 +10,7 @@ Which in turn is based on the series of blog posts called *Kotlin Hidden Costs*.
 
 [Part 3](https://medium.com/@BladeCoder/exploring-kotlins-hidden-costs-part-3-3bf6e0dbf0a4)
 
-My blog post showing the results of this benchmark on android: TODO
+My blog post showing the results of this benchmark on android: httpshttps://willowtreeapps.com/ideas/kotlins-hidden-costs-android-benchmarks
 
 Results from a Google Pixel on Android 7.1.2 https://github.com/evant/kotlin-hidden-costs-benchmark/tree/android/benchmark-results
 
