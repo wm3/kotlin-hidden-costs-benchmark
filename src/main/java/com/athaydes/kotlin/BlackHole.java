@@ -1,11 +1,21 @@
 package com.athaydes.kotlin;
 
 public class BlackHole {
-    private Object[] values = new Object[16];
-    private int i = 0;
+    public int state = (int)(Math.random() * Integer.MAX_VALUE);
+
+    public void consume(int value) {
+        state = state ^ (state << 1) ^ value;
+    }
 
     public void consume(Object value) {
-        this.values[i] = value;
-        i = (i + 1) % 16;
+        if (value == null) {
+            state = state ^ (state << 1) ^ 1823577408;
+        } else {
+            state = state ^ (state << 1) ^ 993781958;
+        }
+    }
+
+    public void consumeArray(int[] value) {
+        state = state ^ (state << 1) ^ value.length;
     }
 }
