@@ -1,18 +1,24 @@
-# Kotlin Hidden Costs Benchmark Android
+# Kotlin Hidden Costs Benchmark of `for` Loops on Android
 
-This is a reponse to [Kotlin Hidden Costs - Benchmarks](https://sites.google.com/a/athaydes.com/renato-athaydes/posts/kotlinshiddencosts-benchmarks)
+This is micro benchmarks to see performance of `for` loops of Kotlin.
 
-Which in turn is based on the series of blog posts called *Kotlin Hidden Costs*.
+The result of this benchmark is used in [my article(Japanese)](http://qiita.com/wm3/items/340ebe5f13f2f0e5d19f).
 
-[Part 1](https://medium.com/@BladeCoder/exploring-kotlins-hidden-costs-part-1-fbb9935d9b62)
 
-[Part 2](https://medium.com/@BladeCoder/exploring-kotlins-hidden-costs-part-2-324a4a50b70)
+## References
 
-[Part 3](https://medium.com/@BladeCoder/exploring-kotlins-hidden-costs-part-3-3bf6e0dbf0a4)
+### Benchmarks
 
-My blog post showing the results of this benchmark on android: https://willowtreeapps.com/ideas/kotlins-hidden-costs-android-benchmarks
+- [Kotlin's hidden costs - Android benchmarks](https://willowtreeapps.com/ideas/kotlins-hidden-costs-android-benchmarks) … I forked this benchmark program
+- [Kotlin Hidden Costs - Benchmarks](https://sites.google.com/a/athaydes.com/renato-athaydes/posts/kotlinshiddencosts-benchmarks)
 
-Results from a Google Pixel on Android 7.1.2 https://github.com/evant/kotlin-hidden-costs-benchmark/tree/android/benchmark-results
+
+### Original Posts of *Kotlin Hidden Costs*
+
+- [Part 1](https://medium.com/@BladeCoder/exploring-kotlins-hidden-costs-part-1-fbb9935d9b62)
+- [Part 2](https://medium.com/@BladeCoder/exploring-kotlins-hidden-costs-part-2-324a4a50b70)
+- [Part 3](https://medium.com/@BladeCoder/exploring-kotlins-hidden-costs-part-3-3bf6e0dbf0a4)
+
 
 ## Running this benchmark
 
