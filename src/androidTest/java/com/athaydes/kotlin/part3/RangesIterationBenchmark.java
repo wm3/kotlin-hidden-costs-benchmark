@@ -42,12 +42,4 @@ public class RangesIterationBenchmark {
         }
         return blackHole;
     }
-
-    @Benchmark
-    public BlackHole kotlinRangeForEachLoopWithStep1(int reps) {
-        for (int i = 0; i < reps; i++) {
-            Kotlin_sourcesKt.rangeForEachLoopWithStep1(blackHole);
-        }
-        return blackHole;
-    }
 }
